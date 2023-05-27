@@ -1,0 +1,21 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace ProductsApi.Models
+{
+    public class Product
+    {
+        [Key]
+        [Required]
+        public int Id { get; set; }
+        
+        [Required]
+        public string Name { get; set; } = null!;
+
+        [Required]
+        [MinLength(20)]
+        public string Description { get; set; } = null!;
+
+        [Required]
+        public decimal Cost { get; set; }
+    }
+}

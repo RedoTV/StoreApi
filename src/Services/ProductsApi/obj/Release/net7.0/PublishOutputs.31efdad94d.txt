@@ -1,0 +1,12 @@
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\ProductsApi.exe
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\appsettings.Development.json
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\appsettings.json
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\ProductsApi.dll
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\ProductsApi.deps.json
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\ProductsApi.runtimeconfig.json
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\ProductsApi.pdb
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\Microsoft.OpenApi.dll
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\redot\Projects\StoreApi\src\Services\ProductsApi\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
