@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\ProductsApi\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\ProductsApi\\ProductsApi.csproj",
+  "SerializedFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -18642,7 +18642,7 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "ProductsApi",
+  "RootNamespace": "AuthApi",
   "Documents": [],
   "SerializationFormat": "0.3"
 }

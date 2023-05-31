@@ -9,7 +9,7 @@ namespace ProductsApi.Controllers;
 public class ProductController : ControllerBase
 {
     private readonly ILogger<ProductController> _logger;
-    private IRepository _repository;
+    private readonly IRepository _repository;
 
     public ProductController(ILogger<ProductController> logger, IRepository repository)
     {
@@ -19,7 +19,7 @@ public class ProductController : ControllerBase
 
     [HttpGet]
     [Route("getall")]
-    public async Task<ObjectResult> GetAll()
+    public async Task<IActionResult> GetAll()
     {
         IEnumerable<Product> products = await _repository.GetAllProductsAsync();
         if(products.Count() < 1)
@@ -33,7 +33,7 @@ public class ProductController : ControllerBase
 
     [HttpGet]
     [Route("get")]
-    public async Task<ObjectResult> Get(int id)
+    public async Task<IActionResult> Get(int id)
     {
         Product? product = null;
         try
@@ -52,7 +52,7 @@ public class ProductController : ControllerBase
 
     [HttpPost]
     [Route("add")]
-    public async Task<ObjectResult> Add(AddProductModel product)
+    public async Task<IActionResult> Add(AddProductModel product)
     {
         Product? addedProduct = null;
         try
@@ -70,7 +70,7 @@ public class ProductController : ControllerBase
 
     [HttpPut]
     [Route("update")]
-    public async Task<ObjectResult> Update(UpdateProductModel product)
+    public async Task<IActionResult> Update(UpdateProductModel product)
     {
         Product? updatedProduct = null;
         try
@@ -93,7 +93,7 @@ public class ProductController : ControllerBase
 
     [HttpDelete]
     [Route("delete")]
-    public async Task<ObjectResult> Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
         Product? currentProduct = null;
         try
