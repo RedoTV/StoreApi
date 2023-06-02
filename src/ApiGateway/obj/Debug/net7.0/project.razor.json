@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\ProductsApi\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\ProductsApi\\ProductsApi.csproj",
+  "SerializedFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\ApiGateway\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\ApiGateway\\ApiGateway.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -18642,7 +18642,7 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "ProductsApi",
+  "RootNamespace": "ApiGateway",
   "Documents": [],
   "SerializationFormat": "0.3"
 }

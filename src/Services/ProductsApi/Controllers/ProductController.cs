@@ -32,7 +32,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet]
-    [Route("get")]
+    [Route("get/{id}")]
     public async Task<IActionResult> Get(int id)
     {
         Product? product = null;
@@ -92,7 +92,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("delete")]
+    [Route("delete/{id}")]
     public async Task<IActionResult> Delete(int id)
     {
         Product? currentProduct = null;

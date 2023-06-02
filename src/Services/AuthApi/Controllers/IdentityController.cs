@@ -42,11 +42,4 @@ public class IdentityController : ControllerBase
 
         return Ok(jwt);
     }
-
-    [HttpGet("GetAll")]
-    [Authorize]
-    public IActionResult GetAll()
-    {
-        return Ok("YOU HAVE ACCESS");
-    }
 }

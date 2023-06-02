@@ -1,0 +1,75 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:5014"
+    },
+    "Routes": [{
+        "UpstreamPathTemplate": "/gateway/product/getall",
+        "UpstreamHttpMethod": ["Get"],
+        "DownstreamPathTemplate": "/product/getall",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5260
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/product/get/{id}",
+        "UpstreamHttpMethod": ["Get"],
+        "DownstreamPathTemplate": "/product/get/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5260
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/product/add",
+        "UpstreamHttpMethod": ["Post"],
+        "DownstreamPathTemplate": "/product/add",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5260
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/product/update",
+        "UpstreamHttpMethod": ["Put"],
+        "DownstreamPathTemplate": "/product/update",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5260
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/product/delete",
+        "UpstreamHttpMethod": ["Delete"],
+        "DownstreamPathTemplate": "/product/delete",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5260
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/auth/signin",
+        "UpstreamHttpMethod": ["Post"],
+        "DownstreamPathTemplate": "/identity/signin",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5099
+        }]
+    },
+    {
+        "UpstreamPathTemplate": "/gateway/auth/register",
+        "UpstreamHttpMethod": ["Post"],
+        "DownstreamPathTemplate": "/identity/register",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [{
+            "Host": "localhost",
+            "Port": 5099
+        }]
+    }]
+}
