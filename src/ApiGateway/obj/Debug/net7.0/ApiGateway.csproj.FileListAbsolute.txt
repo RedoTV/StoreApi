@@ -35,3 +35,10 @@ C:\Users\redot\Projects\StoreApi\src\ApiGateway\obj\Debug\net7.0\refint\ApiGatew
 C:\Users\redot\Projects\StoreApi\src\ApiGateway\obj\Debug\net7.0\ApiGateway.pdb
 C:\Users\redot\Projects\StoreApi\src\ApiGateway\obj\Debug\net7.0\ApiGateway.genruntimeconfig.cache
 C:\Users\redot\Projects\StoreApi\src\ApiGateway\obj\Debug\net7.0\ref\ApiGateway.dll
+C:\Users\redot\Projects\StoreApi\src\ApiGateway\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\redot\Projects\StoreApi\src\ApiGateway\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\redot\Projects\StoreApi\src\ApiGateway\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\redot\Projects\StoreApi\src\ApiGateway\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\redot\Projects\StoreApi\src\ApiGateway\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\redot\Projects\StoreApi\src\ApiGateway\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\redot\Projects\StoreApi\src\ApiGateway\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,6 +1,6 @@
 {
     "GlobalConfiguration": {
-        "BaseUrl": "http://localhost:5014"
+        "BaseUrl": "https://localhost:7000"
     },
     "Routes": [{
         "UpstreamPathTemplate": "/gateway/product/getall",
@@ -30,7 +30,11 @@
         "DownstreamHostAndPorts": [{
             "Host": "localhost",
             "Port": 5260
-        }]
+        }],
+        "AuthenticationOptions": {
+            "AuthenticationProviderKey": "Bearer",
+            "AllowedScopes": []
+        }
     },
     {
         "UpstreamPathTemplate": "/gateway/product/update",
@@ -40,7 +44,11 @@
         "DownstreamHostAndPorts": [{
             "Host": "localhost",
             "Port": 5260
-        }]
+        }],
+        "AuthenticationOptions": {
+            "AuthenticationProviderKey": "Bearer",
+            "AllowedScopes": []
+        }
     },
     {
         "UpstreamPathTemplate": "/gateway/product/delete",
@@ -50,7 +58,11 @@
         "DownstreamHostAndPorts": [{
             "Host": "localhost",
             "Port": 5260
-        }]
+        }],
+        "AuthenticationOptions": {
+            "AuthenticationProviderKey": "Bearer",
+            "AllowedScopes": []
+        }
     },
     {
         "UpstreamPathTemplate": "/gateway/auth/signin",

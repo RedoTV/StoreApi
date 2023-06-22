@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductsApi.Models;
 using ProductsApi.Services;
@@ -54,7 +56,7 @@ public class ProductController : ControllerBase
     [Route("add")]
     public async Task<IActionResult> Add(AddProductModel product)
     {
-        Product? addedProduct = null;
+        Product? addedProduct;
         try
         {
             _logger.LogInformation("Adding product...");
@@ -68,6 +70,7 @@ public class ProductController : ControllerBase
         return Ok(addedProduct);
     }
 
+    [Authorize(JwtBearerDefaults.AuthenticationScheme)]
     [HttpPut]
     [Route("update")]
     public async Task<IActionResult> Update(UpdateProductModel product)
