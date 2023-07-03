@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj": {}
+    "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj": {
+    "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj",
+        "projectUniqueName": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj",
         "projectName": "AuthApi",
-        "projectPath": "C:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj",
+        "projectPath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj",
         "packagesPath": "C:\\Users\\redot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\obj\\",
+        "outputPath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

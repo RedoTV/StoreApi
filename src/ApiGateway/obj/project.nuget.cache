@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oooBdypgyMDDLmjgxp/HRvYTDK2+af0uPsFhu/6a24yX626Oxy8JfImRrquly7iKAbon4cA/fAFLv3sPdm83gQ==",
+  "dgSpecHash": "Qsfcnqp7ubF3XLHVqb3ocm+Iam84z3hfP+T08w2es4GnkVG8aWrE+0uJBTif1jZJSB5+TEq3lddXksPtkBX8fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\redot\\Projects\\StoreApi\\src\\ApiGateway\\ApiGateway.csproj",
+  "projectFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\redot\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\redot\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",

@@ -1,10 +1,7 @@
-using System.Text;
 using AuthApi.Data;
 using AuthApi.Services.Implementations;
 using AuthApi.Services.Interfaces;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 
 var builder = WebApplication.CreateBuilder(args);

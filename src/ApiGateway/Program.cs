@@ -20,7 +20,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
                 ValidateIssuer = true,
                 ValidateAudience = true,
                 ValidateLifetime = false,
-                ValidateIssuerSigningKey = true
+                ValidateIssuerSigningKey = true,
+                ClockSkew = TimeSpan.FromMinutes(5)
             };
         }
     );

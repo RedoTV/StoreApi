@@ -1,6 +1,7 @@
-public enum RolesEnum
+namespace AuthApi.Models;
+public class RolesEnum
 {
-    buyer,
-    seller,
-    admin
+    public const string Buyer = "buyer";
+    public const string Seller = "seller";
+    public const string Admin = "admin";
 }

@@ -29,7 +29,7 @@ namespace AuthApi.Services.Implementations
         {
             List<Claim> claimsForToken = new List<Claim>{
                     new Claim(ClaimTypes.Name, user.Name),
-                    new Claim(ClaimTypes.Role, user.Role.ToString())
+                    new Claim("Role", user.Role)
                 };
 
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("Jwt:Key").Value!));

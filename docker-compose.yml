@@ -1,0 +1,43 @@
+version: '3.6'
+services:
+  ocelot-gateway:
+    image: ocelot-gateway
+    build:
+      context: ./src/ApiGateway
+      dockerfile: Dockerfile
+    ports:
+      - "7000:80"
+    depends_on:
+      - identity-api
+      - products-api
+    networks:
+      - ocelot-net
+        
+  identity-api:
+    image: identity-api
+    build:
+      context: ./src/Services/AuthApi
+      dockerfile: Dockerfile
+    ports:
+      - "7001:80"
+    networks:
+      ocelot-net:
+        aliases:
+          - identity
+
+  products-api:
+    image: products-api
+    build:
+      context: ./src/Services/ProductsApi
+      dockerfile: Dockerfile
+    ports:
+      - "7002:80"
+    networks:
+      ocelot-net:
+        aliases:
+          - products
+
+networks:
+  ocelot-net: 
+    name: ocelot-net
+    driver: bridge

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3cM4H4JpfG+wDfiti+e8wmZLUDurp6NftOBMbOPKIGD3IzGnBfNqwO43sF4i3plrwNovsAef+mrypf6wHSmJ6w==",
+  "dgSpecHash": "N6T/G54kuqfyycJxnKro620H27BIDsVG3MO91SbFSZWbaDXqYWHe+WzC67UuR4ZNqpRODYYhP63pKmAdWtey6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\ProductsApi\\ProductsApi.csproj",
+  "projectFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\ProductsApi\\ProductsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\redot\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
     "C:\\Users\\redot\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",

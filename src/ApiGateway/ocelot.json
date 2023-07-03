@@ -1,6 +1,6 @@
 {
     "GlobalConfiguration": {
-        "BaseUrl": "https://localhost:7000"
+        "BaseUrl": "http://localhost:7000"
     },
     "Routes": [{
         "UpstreamPathTemplate": "/gateway/product/getall",
@@ -8,8 +8,8 @@
         "DownstreamPathTemplate": "/product/getall",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [{
-            "Host": "localhost",
-            "Port": 5260
+            "Host": "products",
+            "Port": 80
         }]
     },
     {
@@ -18,8 +18,8 @@
         "DownstreamPathTemplate": "/product/get/{id}",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [{
-            "Host": "localhost",
-            "Port": 5260
+            "Host": "products",
+            "Port": 80
         }]
     },
     {
@@ -28,12 +28,15 @@
         "DownstreamPathTemplate": "/product/add",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [{
-            "Host": "localhost",
-            "Port": 5260
+            "Host": "products",
+            "Port": 80
         }],
         "AuthenticationOptions": {
             "AuthenticationProviderKey": "Bearer",
             "AllowedScopes": []
+        },
+        "RouteClaimsRequirement": {
+            "Role": "admin"
         }
     },
     {
@@ -42,8 +45,8 @@
         "DownstreamPathTemplate": "/product/update",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [{
-            "Host": "localhost",
-            "Port": 5260
+            "Host": "products",
+            "Port": 80
         }],
         "AuthenticationOptions": {
             "AuthenticationProviderKey": "Bearer",
@@ -56,8 +59,8 @@
         "DownstreamPathTemplate": "/product/delete",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [{
-            "Host": "localhost",
-            "Port": 5260
+            "Host": "products",
+            "Port": 80
         }],
         "AuthenticationOptions": {
             "AuthenticationProviderKey": "Bearer",
@@ -70,8 +73,8 @@
         "DownstreamPathTemplate": "/identity/signin",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [{
-            "Host": "localhost",
-            "Port": 5099
+            "Host": "identity",
+            "Port": 80
         }]
     },
     {
@@ -80,8 +83,8 @@
         "DownstreamPathTemplate": "/identity/register",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [{
-            "Host": "localhost",
-            "Port": 5099
+            "Host": "identity",
+            "Port": 80
         }]
     }]
 }
