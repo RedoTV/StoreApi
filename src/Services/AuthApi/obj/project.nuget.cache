@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vr4/8CnIKtVKiuCof0FAf+m9+v0kgpNvl6HhXuCc5We41EXZnO33l1KENLgWN1h+N4BiT2jEFITP6l/CwQwAOQ==",
+  "dgSpecHash": "skMTasUygaTuYfRrQBnBQE4Ytr/owQsvTqe88NrGkf0bDkpBUImdZD6x6oUW218qHxFrm5eY6uLhtL7TqJYBLQ==",
   "success": true,
   "projectFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\AuthApi\\AuthApi.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N6T/G54kuqfyycJxnKro620H27BIDsVG3MO91SbFSZWbaDXqYWHe+WzC67UuR4ZNqpRODYYhP63pKmAdWtey6w==",
+  "dgSpecHash": "Rv2v5LHOvNni8xMMlpjFOO+RcVFrW8rlmXP+IAPyYNdzVxRmZYXfwL/5B0tE1rta/emrfZ9Rrye3HMnYsFwicw==",
   "success": true,
   "projectFilePath": "c:\\Users\\redot\\Projects\\StoreApi\\src\\Services\\ProductsApi\\ProductsApi.csproj",
   "expectedPackageFiles": [
