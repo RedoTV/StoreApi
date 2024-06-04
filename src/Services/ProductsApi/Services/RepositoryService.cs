@@ -23,7 +23,7 @@ public class RepositoryService : IRepository
         }
         catch (Exception exc)
         {
-           throw exc;
+           exc.GetBaseException();
         }
         return findedProduct;
     }
@@ -54,7 +54,7 @@ public class RepositoryService : IRepository
         }
         catch (Exception exc)
         {
-            throw exc;
+            exc.GetBaseException();
         }
 
         FillProperties(ref productInDb, updatedInfo);
